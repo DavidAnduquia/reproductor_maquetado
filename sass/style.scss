@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -17,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    padding : 6vh;
   }
   
   #content{
@@ -37,23 +39,28 @@
     }
   }
   
-  #footer{
-    display: flex;
+  #footer{ 
     flex-direction: column;
     background-color: rgb(17,17,17);
     
     #rng_reproductor{
- 
       display: flex;
       align-content: center;
       justify-content: center;
       }
 
     #txt_reproductor{   
-  
-      display: flex;
-      align-content: center;
-      justify-content: center;
+      
+      flex-direction: column;
+      div{
+        display: flex; 
+        align-content: center;
+        justify-content: center;  
+        label{
+          font-family: 'EB Garamond', serif;
+          font-size: 1rem;
+        }
+      }
     }
 
     #btns_reproductor{
@@ -67,7 +74,7 @@
  
 
 #range_progreso{
-  width: 35%;
+  width: 50%;
 }
 
 #range_volumen{
