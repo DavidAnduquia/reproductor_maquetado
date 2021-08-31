@@ -1,6 +1,6 @@
  
 
-var pathMusic = new Audio("../assets/syn-nr.mp3");
+var pathMusic = new Audio("./assets/syn-nr.mp3");
 
 
 music_progress = document.querySelector("#barra_progreso");

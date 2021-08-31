@@ -54,6 +54,7 @@
   font-family: "EB Garamond", serif;
   font-size: 1rem;
 }
+
 #range_progreso {
   width: 50%;
 }
@@ -113,6 +114,46 @@ svg {
 svg:hover {
   fill: brown;
   border-radius: 60% #141414;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    height: 100% !important;
+    width: 100%;
+  }
+  .container #header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    opacity: 0.5;
+  }
+  .container #content {
+    height: 50%;
+  }
+  .container #content .element-content {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+  .container #content .element-content img {
+    width: 100%;
+    height: auto;
+  }
+  .container #footer {
+    padding: 10%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container #footer #rng_reproductor {
+    display: none;
+  }
+  .container #footer .titulo {
+    font-weight: 900;
+  }
+  .container #footer .subtitulo {
+    color: #868686;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
