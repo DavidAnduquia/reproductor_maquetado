@@ -5,14 +5,15 @@ var pausa = true;
  function cambiarIcon(){
   
     if (pausa){
-        pausa=true;
-      
-        svg1.style.display ="block";
-        svg2.style.display ="none";
-    } else {
         pausa=false;
         svg1.style.display ="none"; // desaparece
         svg2.style.display ="block";
+        
+    } else {
+        pausa=true;
+        svg2.style.display ="none";
+        svg1.style.display ="block";
+       
      
     }
 }  

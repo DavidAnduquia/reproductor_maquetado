@@ -41,6 +41,10 @@
 .container #footer #rng_reproductor {
   flex: 1 40px;
 }
+.container #footer #text_reproductor {
+  justify-content: center;
+  align-items: center;
+}
 .container #footer #btns_reproductor {
   background-color: #111111;
 }
