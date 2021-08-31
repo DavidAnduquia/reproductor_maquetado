@@ -47,12 +47,12 @@ function progress_time(){
         label_finalT.innerText = pathMusic.duration;
       
         setTimeout(function () {
-            label_actualT.innerText = pathMusic.currentTime  + " : ";   
+            label_actualT.innerText = pathMusic.currentTime  + "  ";   
         }, 1000);     
 
         setInterval(function () {
             range_progreso.value =  (pathMusic.currentTime);
-            label_actualT.innerText = pathMusic.currentTime  + " : ";
+            label_actualT.innerText = pathMusic.currentTime  + " ";
             range_progreso.max   = pathMusic.duration;
         },1200);
 }
